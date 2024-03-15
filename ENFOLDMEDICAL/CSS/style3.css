@@ -1,0 +1,528 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#e1e1e1;
+    height: 50px;
+    width: 100%;
+}
+.dropdown a
+{
+   position: relative;
+   display: inline-block;
+   padding: 10px;
+   color: rgb(142, 135, 135);
+   border-left: 2px solid gainsboro;
+   text-decoration: none;
+   
+  
+}
+.dropdown-content
+{
+   position: absolute;
+   
+}
+
+.dropdown-content a{
+   display: none;
+}
+.dropdown:hover .dropdown-content a{
+   display: block;
+   background-color: white;
+   padding: 20px 60px;
+   color:darkgray;
+}
+.dropdown:hover a{
+   background-color: darkgray;
+   color: black;
+}
+.logo {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   align-items: center; 
+   height: 100px;
+   width: 100%;
+}
+
+.logoimage {
+   flex:5; 
+   text-align: center; 
+   width: 100px;
+}
+
+.logoimage img {
+   max-height: 100%; 
+   width: 300px;
+}
+
+.icon {
+   display: flex;
+   gap: 10px; 
+   
+}
+.blue
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #6abbe6;
+   color: #e1e1e1;
+   width: 100%;
+   height: 30px;
+}
+.phone
+{
+   color: white;
+   font-size:small;
+   margin: 2px;
+   margin-top: 13px;
+   
+  
+}
+.details
+{
+   padding: 10px 30px;
+   font-size: small;
+   flex-direction: row;
+
+}
+.phone p
+{
+   padding: 0px 20px;
+}
+.details a{
+   padding: 0px 10px;
+   border-left: 1px;
+   border-color:#e1e1e1;
+   border-style: solid;
+   border-top: none;
+   border-right: none;
+   border-bottom: none;
+   color: white;
+   text-decoration: none;
+}
+.details:hover a
+{
+    text-decoration: none;
+    color: white;
+}
+.envato
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 13px;
+   background-color: black;
+}
+.envatoimage a img
+{
+   background-size: 20px;
+}
+.buynow button
+{
+   font-size: 14px;
+   padding: 5px 20px;
+   line-height: 1.5;
+   border-radius: 4px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   background-color: #82b440;
+   border: none;
+}
+.buynow button a{
+   color: white;
+}
+
+
+.ourteam
+{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 100%;
+    margin-left: 0;
+    
+}
+.teamimg img{
+    width: 100%;
+    height: 450px;
+}
+.tm
+{
+    width: 100%;
+    height: 450px;
+    background-color: #22689e;
+    padding: 15px 10px;
+    flex-direction: row;
+    /* padding: 5px; */
+}
+.tc{
+    /* padding:6px;      */
+}
+.tc h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+}
+
+.bluecard
+{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+}
+.card3
+{
+    width: 22rem;
+    background-color:#379cd6;
+    padding:50px 50px;
+    margin-top: -50px;
+    
+}
+.card-body3
+{
+    text-align: center;
+    color: white;
+}
+.topcontent
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.twocards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card2 img{
+    width:100%;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.card2:hover > img {
+    opacity: 0.5;
+    background-color: transparent;
+    border: 7px solid gray;
+}
+
+.d5
+{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+.img3 img{
+    width: 100%;
+    height: 450px;
+}
+.c3
+{
+    width: 100%;
+    height: 450px;
+    background-color: #22689e;
+    padding: 0px 50px;
+    flex-direction: row;
+}
+.content3{
+    padding: 80px 30px;     
+}
+.content3 h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+} 
+.content3 button
+{
+    border: 3px solid white;
+    background-color: transparent;
+    padding:10px 16px;
+    font-size: 13px;
+    float: left;
+    color: white;
+   
+
+}
+button a
+{
+    color: white;
+    text-decoration: none;
+}
+button:hover a{
+    color:lightcyan;
+    text-decoration: none;
+}
+.threecards
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: #2183b8; */
+} 
+.card
+{
+    flex-direction: row;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.card:hover img
+{
+    opacity: 0.5;
+    background-color: transparent;
+    border: 7px solid gray;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2388c2;
+    color: #e8f7ff;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+
+
+h3{
+    border-style: solid;
+    border-color: white;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    font-size:1.1em;
+    padding: 5px;
+}
+.flex4
+{
+    background-color:#2183b8 ;
+    display:flex ;
+    padding: 20px;
+    font-size: 13px;
+    flex-direction: row;
+    flex: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span
+{
+    color: white;
+}
+span a
+{
+    color: white;
+    text-decoration: none;
+}
+span:hover a{
+    color: white;
+}
+.copyright,.customer
+{
+    padding: 2px 150px;
+}
+.customer a{
+    color: white;
+    padding: 3px;
+}
+
+
+@media (max-width:800px)
+{
+    .nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .dropdown {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown a {
+        border-left: none;
+        border-bottom: 2px solid gainsboro;
+    }
+
+    .dropdown:hover a {
+        background-color: inherit;
+        color: inherit;
+    }
+
+    a:hover {
+        background-color: inherit;
+    }
+
+    .dropdown:hover .dropdown-content a:hover {
+        background-color: #2183b8;
+        color: white;
+    }
+    .logo{
+        flex-direction: column;
+
+        height: auto;
+    }
+    .logoimage {
+        flex: none; 
+        width: auto; 
+        margin-bottom: 10px; 
+    }
+    
+    .logoimage img {
+        width: 100%;
+        max-width: 300px; 
+        height: auto; 
+    }
+   .blue{
+    flex-direction: column;
+    height: auto;
+   }
+    .phone .details 
+    {
+    margin: 5px;
+    }
+    .envato
+    {
+        flex-direction: column;
+    }
+    .envatoimage
+    {
+        margin-bottom: 10px;
+        
+    }
+    .envatoimage a img
+    {
+        width: 150px;
+        height: 20px;
+    }
+
+
+    .ourteam{
+        flex-direction: column;
+        height: auto;
+    }
+    .tm
+    {
+        flex-direction: column;
+        padding:2px;
+        height: auto;
+    } 
+    .tc
+    {
+        padding: 50px;
+    }
+    .teamimg img
+    {
+        height: 300px;
+    }
+    
+    .bluecard
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .card3{
+        /* width: 400px; */
+        width: 100%;
+        padding: 20px;
+       
+        
+    }
+    /* .card-body3
+    {
+        text-align: center;
+        justify-content: center;
+    } */
+    .topcontent
+    {
+        flex-direction: column;
+    }
+    
+    .twocards {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card2 img,.card2
+    {
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        height: auto;
+        display: block;
+    }
+    
+    
+    
+    .threecards
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card img,.card
+    {
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        height: auto;
+        display: block;
+    }
+
+    .d5{
+        flex-direction: column;
+        height: auto;
+    }
+    .c3
+    {
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    } 
+
+    .foot{
+        flex-direction: column;
+        /* position: relative; */
+        padding: 30px 20px;
+        
+
+    }
+    .flex4{
+        flex-direction: column;
+        /* position: relative; */
+        padding: 20px 0px;
+        
+    }
+   
+
+}

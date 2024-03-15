@@ -1,0 +1,538 @@
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2388c2;
+    color: #e8f7ff;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+
+
+h3{
+    border-style: solid;
+    border-color: white;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    font-size:1.1em;
+    padding: 5px;
+}
+.flex4
+{
+    background-color:#2183b8 ;
+    display:flex ;
+    padding: 20px;
+    font-size: 13px;
+    flex-direction: row;
+    flex: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span
+{
+    color: white;
+}
+span a
+{
+    color: white;
+    text-decoration: none;
+}
+span:hover a{
+    color: white;
+}
+.copyright,.customer
+{
+    padding: 2px 150px;
+}
+.customer a{
+    color: white;
+    padding: 3px;
+}
+.d3
+{
+    
+    /* height: 450px;   */
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    flex:100%;
+}
+
+img
+{
+
+    width: 100%;
+    height: 100%;
+    /* flex: 50%; */
+    
+} 
+ .c1 {
+    width: 100%;
+    height: 450px;
+    background-color:#22689e; 
+    color: #e1e1e1;
+    /* border: 2px solid red; */
+    /* flex: 50%; */
+
+   
+}
+
+.content1{
+    padding: 80px 55px;     
+}
+
+
+.content1 h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+} 
+
+
+.d4
+{
+    width: 100%;
+    height: 450px;  
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+
+    
+}
+.c2 {
+    width: 100%;
+    height: 450px;
+    background-color:white; 
+    color: #e1e1e1;
+    padding: 50px 0px;
+    flex: 50%;
+    
+   
+}
+.img2 
+{
+    
+    width: 100%; 
+    height:100%;
+    flex: 50%; 
+}
+.content2{
+    padding: 80px 10px ;  
+  
+}
+.content2 h1{
+    font-size: xx-large;
+    color: black;
+    font-weight: lighter;
+} 
+.d5
+{
+    display: flex;
+    flex-direction: row;
+}
+.img3{
+    width: 100%;
+    height: 450px;
+}
+.c3
+{
+    width: 100%;
+    height: 450px;
+    background-color: #22689e;
+    padding: 0px 50px;
+}
+.content3{
+    padding: 80px 30px;     
+}
+.content3 h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+} 
+.about
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+    
+}
+.build
+{
+    padding: 1px 90px;
+    margin: 80px 10px;
+}
+.build2
+{
+    padding: 5px 3px;
+    margin: 80px;
+    top: 50px;
+    margin-bottom: 150px;
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: -100px;
+    margin-left: 0px;
+    
+    
+    
+}
+.card1
+{
+    width: 20rem;
+    background-color:#2388c2;
+    padding:50px 50px;
+    
+}
+.card-body1
+{
+    text-align: center;
+    color: white;
+}
+.card2
+{
+    width: 20rem;
+    background-color:#379cd6;
+    padding:50px 50px;
+    flex-direction: row;
+}
+.card-body2
+{
+    text-align: center;
+    color: white;
+}
+.card3
+{
+    width: 20rem;
+    background-color:#5fb4e4;
+    padding:50px 50px;
+}
+.card-body3
+{
+    text-align: center;
+    color: white;
+}
+.medical
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hospital img{
+    height: 450px;
+    width: 100%;
+    
+}
+.hs h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+}
+
+.hs
+{
+    width: 100%;
+    background-color:#22689e; 
+    color: #e1e1e1;
+    height: 450px;
+    padding: 30px 80px;
+}
+.nav{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     background-color:#e1e1e1;
+     height: 50px;
+     width: 100%;
+}
+.dropdown a
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(142, 135, 135);
+    border-left: 2px solid gainsboro;
+    
+   
+}
+.dropdown-content
+{
+    position: absolute;
+    
+}
+
+.dropdown-content a{
+    display: none;
+}
+.dropdown:hover .dropdown-content a{
+    display: block;
+    background-color: white;
+    padding: 20px 60px;
+    color:darkgray;
+}
+.dropdown:hover a{
+    background-color: darkgray;
+    color: black;
+}
+ .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100px;
+    width: 100%;
+}
+
+.logoimage {
+    flex:5; 
+    text-align: center; 
+    width: 100px;
+}
+
+.logoimage img {
+    max-height: 100%; 
+    width: 300px;
+}
+
+.icon {
+    display: flex;
+    gap: 10px; 
+    
+}
+.blue
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6abbe6;
+    color: #e1e1e1;
+    width: 100%;
+    height: 30px;
+}
+.phone
+{
+    color: white;
+    font-size:small;
+    margin: 2px;
+    margin-top: 13px;
+    
+   
+}
+.details
+{
+    padding: 10px 30px;
+    font-size: small;
+    flex-direction: row;
+
+}
+.phone p
+{
+    padding: 0px 20px;
+}
+.details a{
+    padding: 0px 10px;
+    border-left: 1px;
+    border-color:#e1e1e1;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    color: white;
+}
+.envato
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    background-color: black;
+}
+.envatoimage a img
+{
+    background-size: 20px;
+}
+.buynow button
+{
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #82b440;
+    border: none;
+}
+.buynow button a{
+    color: white;
+}
+
+
+
+
+
+@media (max-width:800px)
+{
+    .foot{
+        flex-direction: column;
+        position: relative;
+        padding: 40px;
+
+    }
+    .flex4{
+        flex-direction: column;
+
+        position: relative;
+        
+    }
+    .d3
+    {
+        flex-direction: column;
+    }
+    
+    .c1{
+        height: 500px;
+    }
+    img
+    {
+        height: 450px;
+    }
+    .d4 {
+        flex-direction: column;
+    }
+    /* img2
+    {
+        margin-bottom: 500px;
+        height: 1000px;
+        width: 100%;
+    } */
+    .d5{
+        flex-direction: column;
+
+    }
+    .about
+    {
+        flex-direction: column;
+    }
+    .content3{
+        padding: 100px 0px;
+    }
+    .cards
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card2
+    {
+        flex-direction: column;
+        margin-block-start: 1em;
+        margin-block-end:1em ;
+
+    }
+    .medical
+    {
+        flex-direction: column;
+          
+    }
+    .hs
+    {
+        padding: 30px;
+    }
+    
+        .nav {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .dropdown {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .dropdown-content {
+            position: static;
+            display: none;
+        }
+    
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    
+        .dropdown a {
+            border-left: none;
+            border-bottom: 2px solid gainsboro;
+        }
+    
+        .dropdown:hover a {
+            background-color: inherit;
+            color: inherit;
+        }
+    
+        a:hover {
+            background-color: inherit;
+        }
+    
+        .dropdown:hover .dropdown-content a:hover {
+            background-color: #2183b8;
+            color: white;
+        }
+        .logo{
+            flex-direction: column;
+
+            height: auto;
+        }
+        .logoimage {
+            flex: none; 
+            width: auto; 
+            margin-bottom: 10px; 
+        }
+        
+        .logoimage img {
+            width: 100%;
+            max-width: 300px; 
+            height: auto; 
+        }
+       .blue{
+        flex-direction: column;
+        height: auto;
+       }
+        .phone .details 
+        {
+        margin: 5px;
+        }
+        .envato
+        {
+            flex-direction: column;
+        }
+        .envatoimage
+        {
+            margin-bottom: 10px;
+            
+        }
+        .envatoimage a img
+        {
+            width: 150px;
+            height: 20px;
+        }
+  
+}
